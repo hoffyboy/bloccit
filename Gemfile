@@ -65,3 +65,5 @@ gem 'bootstrap-sass'
 gem 'bcrypt'
 
 gem 'rails-controller-testing'
+
+gem 'figaro', '1.0'
