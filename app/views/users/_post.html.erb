@@ -5,7 +5,7 @@
       <%= link_to post.title, topic_post_path(post.topic, post) %>
     </h4>
     <small>
-      <%= post.comments.count %> Comments,  <%= post.votes.count %> Votes
+      <%= pluralize(post.comments.count, 'Comment') %>,  <%= pluralize(post.votes.count, 'Vote') %>
     </small>
   </div>
 </div>
